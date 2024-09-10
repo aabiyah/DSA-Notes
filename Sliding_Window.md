@@ -5,8 +5,8 @@ The Sliding Window Protocol is a method used in data transmission protocols to e
 1. Window Size:
 * The window refers to the range of sequence numbers that the sender can transmit before waiting for an acknowledgment.
 * There are two windows in this protocol:
-  ** Sender’s Window: The range of sequence numbers the sender can transmit without receiving acknowledgment.
-  ** Receiver’s Window: The range of sequence numbers the receiver is ready to accept.
+  * Sender’s Window: The range of sequence numbers the sender can transmit without receiving acknowledgment.
+  * Receiver’s Window: The range of sequence numbers the receiver is ready to accept.
 
 2. Flow Control:
 * Sliding window ensures flow control, preventing the sender from overwhelming the receiver with too much data at once.
